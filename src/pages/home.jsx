@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './home.css';
 import axios from 'axios'
 import { Card } from '../components/card';
+import { Cards } from '../components/cards';
 import { Window } from '../components/window';
 import {usechain} from '../context/productcontext'
 
@@ -17,6 +18,6 @@ export const Home = () =>{
     return(
     <>
     <Window />
-    {chainstate.chain.map(prod=><Card key={prod.id} prod={prod}/>)}
+    <Cards prods={chainstate.chain}/>
     </>
 )}

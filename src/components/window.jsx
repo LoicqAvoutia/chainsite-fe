@@ -1,7 +1,23 @@
 import { NavLink } from 'react-router'
+import { useState, useEffect } from 'react';
 import'./window.css'
 
 export const Window = () =>{
+    const immagini = [
+        "../../img-vet-1.jpg",
+        "../../img-vet-2.jpg"
+    ];
+
+    const [indice, setIndice] = useState(0);
+
+    useEffect(() => {
+        const intervallo = setInterval(() => {
+            setIndice((prev) => (prev + 1) % immagini.length);
+            console.log('switch')
+        }, 3000);
+
+        return () => clearInterval(intervallo);
+    }, []);
     return(
         <>
         <div className="display-window">
@@ -11,7 +27,7 @@ export const Window = () =>{
                 <h3>Catene in argento 925 pensate per accompagnarti ogni giorno in ogni occasione</h3>
                 <NavLink to='prodotti'>collezione</NavLink>
             </div>
-            <img src="../../img-vet-1.jpg" alt="img" />
+            <img src={immagini[indice]} alt="img" />
         </div>
         </>
     )
