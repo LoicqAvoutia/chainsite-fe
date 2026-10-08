@@ -1,0 +1,38 @@
+.footer{
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-color: #e7e7e7;
+    width: 90%;
+    min-height: 180px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 85px;
+    background-color: #e7e7e7;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.footer h3{
+    text-align: center;
+}
+.footer h1{
+    text-align: center;
+}
+.form-container{
+    height: 50px;
+    margin: 0 auto;
+    width: 500px;
+}
+.form-container input{
+    height: 100%;
+    width: 70%;
+}
+.form-container button{
+    padding: 15px;
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 30%;
+}
