@@ -1,0 +1,30 @@
+.pres{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    gap: 300px;
+    background-color: #e7e7e7;
+}
+.pres-text{
+    margin-top: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pres-text h3{
+    text-align: center;
+}
+.pres-text h1{
+    text-align: center;
+}
+.pres-text p{
+    text-align: center;
+}
+.pres-text a{
+    text-align: center;
+    margin: 6px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}

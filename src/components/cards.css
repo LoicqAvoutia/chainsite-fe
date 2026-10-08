@@ -1,0 +1,22 @@
+.main{
+    margin-top: 20px;
+}
+.main h3{
+    text-align: center;
+}
+.main h1{
+    text-align: center;
+}
+.cards-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 35px;
+    margin-top: 20px;
+}
+.category{
+    margin-top: 30px;
+}
+.best-sellers{
+    margin-top: 30px;
+}

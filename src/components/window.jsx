@@ -5,7 +5,8 @@ import'./window.css'
 export const Window = () =>{
     const immagini = [
         "../../img-vet-1.jpg",
-        "../../img-vet-2.jpg"
+        "../../img-vet-2.jpg",
+        "../../img-vet-3.jpg"
     ];
 
     const [indice, setIndice] = useState(0);

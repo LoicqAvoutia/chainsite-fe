@@ -4,6 +4,7 @@ import axios from 'axios'
 import { Card } from '../components/card';
 import { Cards } from '../components/cards';
 import { Window } from '../components/window';
+import { Pres } from '../components/pres';
 import {usechain} from '../context/productcontext'
 
 export const Home = () =>{
@@ -19,5 +20,6 @@ export const Home = () =>{
     <>
     <Window />
     <Cards prods={chainstate.chain}/>
+    <Pres />
     </>
 )}
