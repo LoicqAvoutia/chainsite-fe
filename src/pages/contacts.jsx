@@ -3,6 +3,6 @@ import './contacts.css';
 export const Contacts = () =>{
     return(
     <>
-    contacts
+    contact
     </>
 )}

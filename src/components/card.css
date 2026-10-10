@@ -10,3 +10,27 @@
     flex-basis: 240px;
     background-color: #e7e7e7;
 }
+.cardprod{
+    display: flex;
+    margin-bottom: 20px;
+}
+.cardprod img{
+    width: 20%;
+}
+.detail-container{
+    width: 80%;
+}
+.detail-container h4{
+    text-align: center;
+}
+.detail-container p{
+    text-align: center;
+}
+.detail-container a{
+    display: block;
+    width: 77px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
